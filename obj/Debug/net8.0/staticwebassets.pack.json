@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\anush\\source\\repos\\RadzenCode\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RadzenCode.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RadzenCode.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\anush\\source\\repos\\RadzenCode\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\anush\\source\\repos\\RadzenCode\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anush\\source\\repos\\RadzenCode\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anush\\source\\repos\\RadzenCode\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RadzenCode.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RadzenCode.props",
+      "PackagePath": "build\\RadzenCode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RadzenCode.props",
+      "PackagePath": "buildMultiTargeting\\RadzenCode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RadzenCode.props",
+      "PackagePath": "buildTransitive\\RadzenCode.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

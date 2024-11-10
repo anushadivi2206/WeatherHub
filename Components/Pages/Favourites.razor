@@ -1,0 +1,107 @@
+﻿@page "/favorites"
+@using RadzenCode.Models
+@using RadzenCode.Services
+@inject FavoriteCityService FavoriteCityService
+@inject HttpClient httpClient
+@rendermode InteractiveServer
+
+<PageTitle>Favorite Cities</PageTitle>
+
+<RadzenContent Container="main">
+    <RadzenHeading Size="H1" Text="★ Favorite Cities ★" TextStyle="TextStyle.H3" TextAlign="TextAlign.Center" class="rz-color-secondary" />
+
+    @if (isLoading)
+    {
+        <RadzenProgressBar Value="100" ShowValue="false" Mode="ProgressBarMode.Indeterminate" />
+    }
+    else
+    {
+        @if (favoriteCities.Count > 0)
+        {
+            <RadzenStack>
+                @foreach (var city in favoriteCities)
+                {
+                    <RadzenCard class="rz-my-2">
+                        <RadzenRow>
+                            <RadzenColumn Size="11">
+                                <RadzenText TextStyle="TextStyle.H5">@city</RadzenText>
+                                @if (weatherDict.ContainsKey(city))
+                                {
+                                    var weather = weatherDict[city];
+                                    <RadzenStack>
+                                        <RadzenText>Temperature: @weather.Main.Temp °C</RadzenText>
+                                        <RadzenText>Feels Like: @weather.Main.feels_like °C</RadzenText>
+                                        <RadzenText>Humidity: @weather.Main.humidity %</RadzenText>
+                                        <RadzenText>Pressure: @weather.Main.pressure hPa</RadzenText>
+                                    </RadzenStack>
+                                }
+                                else
+                                {
+                                    <RadzenText>Loading...</RadzenText>
+                                }
+                            </RadzenColumn>
+                            <RadzenColumn Size="1" class="rz-text-align-end">
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Click="@(() => RemoveFavoriteCity(city))" />
+                            </RadzenColumn>
+                        </RadzenRow>
+                    </RadzenCard>
+                }
+            </RadzenStack>
+        }
+        else
+        {
+            <RadzenText>No favorite cities added yet.</RadzenText>
+        }
+    }
+</RadzenContent>
+
+@code {
+    private List<string> favoriteCities = new List<string>();
+    private Dictionary<string, WeatherforcastingModel> weatherDict = new Dictionary<string, WeatherforcastingModel>();
+    private string ApiKey = "071c3423863f9b0f3ba1f1ce12c0ded9";
+    private bool isLoading = true;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadFavoriteCities();
+            await LoadWeatherForFavoriteCities();
+            StateHasChanged();
+        }
+    }
+
+    private async Task LoadFavoriteCities()
+    {
+        favoriteCities = await FavoriteCityService.GetFavoriteCitiesAsync();
+        isLoading = false;
+    }
+
+    private async Task RemoveFavoriteCity(string cityName)
+    {
+        await FavoriteCityService.RemoveFavoriteCityAsync(cityName);
+        await LoadFavoriteCities();
+        await LoadWeatherForFavoriteCities();
+    }
+
+    private async Task LoadWeatherForFavoriteCities()
+    {
+        weatherDict.Clear();
+        foreach (var city in favoriteCities)
+        {
+            try
+            {
+                string apiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={ApiKey}&units=metric";
+                var response = await httpClient.GetFromJsonAsync<WeatherforcastingModel>(apiUrl);
+                if (response != null)
+                {
+                    weatherDict[city] = response;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching weather for {city}: {ex.Message}");
+            }
+        }
+    }
+}

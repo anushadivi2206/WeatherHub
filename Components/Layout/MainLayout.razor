@@ -1,0 +1,36 @@
+﻿@inherits LayoutComponentBase
+
+<RadzenLayout>
+    <RadzenSidebar>
+        <NavMenu />
+    </RadzenSidebar>
+    <RadzenBody>
+        <RadzenHeader>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                    <!-- Add a title or logo here if needed -->
+                </div>
+                
+            </div>
+        </RadzenHeader>
+        <RadzenContent Container="main">
+            @Body
+        </RadzenContent>
+        <RadzenFooter>
+            <!-- Add footer content if needed -->
+        </RadzenFooter>
+    </RadzenBody>
+</RadzenLayout>
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenContextMenu />
+<RadzenTooltip />
+
+@code {
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        // You can add any initialization logic here
+    }
+}`

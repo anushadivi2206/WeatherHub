@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anush\\source\\repos\\RadzenCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\pages\\favourites.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\pages\\favourites.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\services\\favoritecityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\services\\favoritecityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\models\\weatherforecastingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\models\\weatherforecastingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|c:\\users\\anush\\source\\repos\\radzencode\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4C2117-F1BA-4DE3-9B0A-1C9C6C5E707D}|RadzenCode.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T04:17:07.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:24:57.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:24:30.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:23:36.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:23:30.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:19:16.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwIYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:20:38.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAADcAAAAASbjVFkAqwAwBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:22:46.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Favourites.razor",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Favourites.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Favourites.razor",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Pages\\Favourites.razor",
+              "RelativeToolTip": "Components\\Pages\\Favourites.razor",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:21:43.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherforecastingModel.cs",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Models\\WeatherforecastingModel.cs",
+              "RelativeDocumentMoniker": "Components\\Models\\WeatherforecastingModel.cs",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Models\\WeatherforecastingModel.cs",
+              "RelativeToolTip": "Components\\Models\\WeatherforecastingModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:25:23.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:27:49.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FavoriteCityService.cs",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Services\\FavoriteCityService.cs",
+              "RelativeDocumentMoniker": "Components\\Services\\FavoriteCityService.cs",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\Components\\Services\\FavoriteCityService.cs",
+              "RelativeToolTip": "Components\\Services\\FavoriteCityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:26:19.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anush\\source\\repos\\RadzenCode\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anush\\source\\repos\\RadzenCode\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T03:27:33.753Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
